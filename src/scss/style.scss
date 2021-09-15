@@ -1,0 +1,36 @@
+@import "variables", "classes";
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  font-size: 10px;
+  font-family: 'Glory', sans-serif;
+
+  & * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } 
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 320px;
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image: url(../img/bg.jpg)
+}
+
+@import 'sections/main';

@@ -1,0 +1,28 @@
+$lDesktop: "only screen and (min-width: 1921px)";
+$desktop: "only screen and (min-width: 1599px)";
+$sDesktop: "only screen and (min-width: 1366px)";
+$tablet: "only screen and (min-width: 1280px)";
+$sTablet: "only screen and (min-width: 1024px)";
+$belowMenuBreak: 'only screen and (max-width: 1023px)';
+$mobile: "only screen and (min-width: 768px)";
+$onlyMobile: "only screen and (max-width: 767px)";
+$bmMobile: "only screen and (min-width: 575px)";
+$onlyMediumMobile: "only screen and (max-width: 499px)";
+$mMobile: "only screen and (min-width: 500px)";
+$sMobile: "only screen and (min-width: 360px)";
+$ssMobile: "only screen and (min-width: 320px)";
+
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Bebas Neue', cursive;
+
+$img: '../img/';
+
+$black: #000;
+$white: #fff;
+$blue: #223782;
+$orange: #ee4315;
+
+$text-light: 300;
+$text-regular: 400;
+$text-semibold: 600;
+$text-bold: 700;
